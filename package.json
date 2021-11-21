@@ -1,0 +1,15 @@
+{
+  "name": "bwo",
+  "version": "1.0.0",
+  "description": "BWO css Skeleton",
+  "main": "index.js",
+  "scripts": {
+    "build": "tailwindcss -i src/style.css -o public/output.css -w"
+
+  },
+  "author": "Shalom",
+  "license": "ISC",
+  "dependencies": {
+    "tailwindcss": "^2.2.19"
+  }
+}
